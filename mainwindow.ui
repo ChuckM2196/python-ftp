@@ -6,21 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1010</width>
-    <height>696</height>
+    <width>870</width>
+    <height>514</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>11</x>
       <y>10</y>
-      <width>981</width>
-      <height>631</height>
+      <width>812</width>
+      <height>451</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -57,7 +57,7 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="5" colspan="2">
+     <item row="0" column="5">
       <widget class="QPushButton" name="newdirButton">
        <property name="text">
         <string>New Dir</string>
@@ -68,7 +68,7 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="7">
+     <item row="0" column="6" colspan="2">
       <widget class="QPushButton" name="deleteButton">
        <property name="text">
         <string>Delete</string>
@@ -78,59 +78,6 @@
          <normaloff>../../icons/bonus/icons-24/cross.png</normaloff>../../icons/bonus/icons-24/cross.png</iconset>
        </property>
       </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>Host:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1" colspan="3">
-      <widget class="QLineEdit" name="hostEdit"/>
-     </item>
-     <item row="1" column="4" colspan="2">
-      <widget class="QComboBox" name="connectionTypeBox"/>
-     </item>
-     <item row="1" column="6">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>Username:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="7">
-      <widget class="QLineEdit" name="usernameEdit"/>
-     </item>
-     <item row="1" column="8">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Password:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="9">
-      <widget class="QLineEdit" name="passwordEdit"/>
-     </item>
-     <item row="1" column="10">
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>Port:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="11">
-      <widget class="QLineEdit" name="portEdit"/>
-     </item>
-     <item row="1" column="12">
-      <widget class="QCheckBox" name="sshBox">
-       <property name="text">
-        <string>SSH</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0" colspan="13">
-      <widget class="QWidget" name="infoWidget" native="true"/>
      </item>
      <item row="0" column="8">
       <widget class="QPushButton" name="refreshButton">
@@ -143,6 +90,60 @@
        </property>
       </widget>
      </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Host:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="hostEdit"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4" colspan="3">
+      <widget class="QLineEdit" name="usernameEdit"/>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8">
+      <widget class="QLineEdit" name="passwordEdit">
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="9">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Port:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="10">
+      <widget class="QLineEdit" name="portEdit"/>
+     </item>
+     <item row="1" column="11">
+      <widget class="QCheckBox" name="sshBox">
+       <property name="text">
+        <string>SSH</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="12">
+      <widget class="QWidget" name="infoWidget" native="true"/>
+     </item>
     </layout>
    </widget>
   </widget>
@@ -151,7 +152,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1010</width>
+     <width>870</width>
      <height>25</height>
     </rect>
    </property>
