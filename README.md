@@ -10,4 +10,8 @@ Upload and Download files, Create and Delete files and directories, basing the p
 
 # CHANGELOG #
 
+5/25/2020: Successfully redirected text to the QTextEdit Widget
+
+5/21/2020: Able to connect and disconnect from FTP server. Redesigned GUI. Connection and Disconnections are running on seperate threads from the main GUI
+
 5/17/2020: Intial Commit - Able to load GUI. No buttons have any functions.
