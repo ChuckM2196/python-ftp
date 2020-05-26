@@ -9,11 +9,6 @@ Upload and Download files, Create and Delete files and directories, basing the p
 - Automatic directory refresh
 
 # CHANGELOG #
-5/25/2020: Successfully redirected text to the QTextEditWidget
-
-5/21/2020: Able to connect and disconnect from FTP Server. Redesigned GUI. Connection and Disconnections are running on seperate
-threads from the main GUI
-
 5/25/2020: Successfully redirected text to the QTextEdit Widget
 
 5/21/2020: Able to connect and disconnect from FTP server. Redesigned GUI. Connection and Disconnections are running on seperate threads from the main GUI
