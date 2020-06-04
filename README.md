@@ -4,9 +4,21 @@ Upload and Download files, Create and Delete files and directories, basing the p
 
 # Requirements: See requirements.txt
 
+# Known Bugs
+Currently destination directory for file uploading is hard coded. This is planning on being changed and is only for testing
+
+Only IP addresses are usable
+
+Port Number is hardcoded. 
+
+Several Errors with crashing
+
+Programs connects to FTP server then disconnects per file upload. This is planning on being changed.
+
 # Optional Functions:
 - SSH without needing password
 - Automatic directory refresh
+- Connect to FTP server via hostname
 
 # CHANGELOG #
 5/25/2020: Successfully redirected text to the QTextEditWidget

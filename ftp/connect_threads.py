@@ -36,8 +36,8 @@ class WorkerConnect(QRunnable, Ui_MainWindow):
             sftp = paramiko.SFTPClient.from_transport(transport)
             files = sftp.listdir('/home/' + self.user)
             print(files)
-            print(f"You're now connected to {self.host}")
-            WorkerConnect.setAutoDelete(self, False)
+            print(f"You're able to successfully connect and transfer files to {self.host}")
+            sftp.close()
+            transport.close()
         except OSError:
             print("Unable to connect")
-            WorkerConnect.setAutoDelete(self, False)
