@@ -1,5 +1,5 @@
 click==7.1.2
-numpy==1.18.4
+numpy==1.22.0
 packaging==20.3
 pyparsing==2.4.7
 PyQt5==5.14.2
